@@ -1,0 +1,22 @@
+// Header
+.menu-button, .cart-button {
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+}
+
+.menu-button {
+	font-size: 0;
+	background-color: $brilliant-1;
+	span {
+		height: 3px;
+		width: 18px;
+		border-radius: 1px;
+		background-color: $brilliant-2;
+		display: inline-block;
+	}
+}
+
+.cart-button {
+	background-color: $brilliant-3;
+}
